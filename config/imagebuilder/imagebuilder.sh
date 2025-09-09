@@ -178,7 +178,7 @@ rebuild_firmware() {
         cgi-io comgt comgt-ncm coreutils coreutils-base64 coreutils-nohup \
         coreutils-truncate curl dosfstools e2fsprogs \
         exfat-mkfs f2fs-tools f2fsck fdisk gzip iconv iw iwinfo jq \
-        jshn kmod-brcmfmac kmod-brcmutil libjson-script liblucihttp \
+        jshn kmod-brcmutil libjson-script liblucihttp \
         liblucihttp-lua losetup lsblk lscpu mkf2fs mount-utils openssl-util parted \
         perl-http-date perlbase-file perlbase-getopt perlbase-time perlbase-unicode perlbase-utf8 \
         ppp ppp-mod-pppoe pv rename resize2fs tar tini ttyd \
