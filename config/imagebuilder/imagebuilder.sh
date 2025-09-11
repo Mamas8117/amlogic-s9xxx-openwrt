@@ -178,12 +178,18 @@ rebuild_firmware() {
         cgi-io comgt comgt-ncm coreutils coreutils-base64 coreutils-nohup \
         coreutils-truncate curl dosfstools e2fsprogs \
         exfat-mkfs f2fs-tools f2fsck fdisk gzip iconv iw iwinfo jq \
-        jshn kmod-brcmutil libjson-script liblucihttp \
-        liblucihttp-lua losetup lsblk lscpu mkf2fs mount-utils openssl-util parted \
+        jshn kmod-usb-acm kmod-usb-ehci kmod-phy-ax88796b kmod-usb-net-asix kmod-usb-net-asix-ax88179 \
+        kmod-usb-net-cdc-eem kmod-usb-net-cdc-mbim kmod-usb-net-cdc-subset kmod-usb-net-dm9601-ether \
+        kmod-usb-net-ipheth kmod-usb-net-rndis kmod-usb-net-rtl8150 r8152-firmware \
+        kmod-crypto-sha256 kmod-usb-net-rtl8152 kmod-usb-net-sierrawireless kmod-usb-ohci \
+        kmod-usb-serial-qualcomm kmod-usb-serial-sierrawireless kmod-scsi-core kmod-usb-storage \
+        kmod-usb-storage-extras kmod-usb-storage-uas kmod-usb-uhci kmod-usb-xhci-hcd \
+        kmod-usb-ehci kmod-usb2 kmod-usb-xhci-hcd kmod-usb3 libjson-script liblucihttp \
+        liblucihttp-lua libevdev libudev-zero losetup lsblk lscpu mkf2fs mount-utils openssl-util parted \
         perl-http-date perlbase-file perlbase-getopt perlbase-time perlbase-unicode perlbase-utf8 \
         ppp ppp-mod-pppoe pv rename resize2fs tar tini ttyd \
-        uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch uuidgen wget-ssl whereis \
-        which wpad-basic wwan xfs-fsck xfs-mkfs xz xz-utils zoneinfo-asia zoneinfo-core zstd \
+        uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch usbids uuidgen wget-ssl whereis \
+        which wwan xfs-fsck xfs-mkfs xz xz-utils zoneinfo-asia zoneinfo-core zstd \
         \
         luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base \
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
