@@ -174,28 +174,19 @@ rebuild_firmware() {
 
     # Selecting default packages, lib, theme, app and i18n, etc.
     my_packages="\
-        base-files bash blkid block-mount blockd bsdtar btrfs-progs busybox bzip2 \
-        cgi-io comgt comgt-ncm coreutils coreutils-base64 coreutils-nohup \
-        coreutils-truncate curl dosfstools e2fsprogs \
-        exfat-mkfs f2fs-tools f2fsck fdisk gzip iconv iw iwinfo jq \
-        jshn kmod-usb-acm kmod-usb-ehci kmod-phy-ax88796b kmod-usb-net-asix kmod-usb-net-asix-ax88179 \
-        kmod-usb-net-cdc-eem kmod-usb-net-cdc-mbim kmod-usb-net-cdc-subset kmod-usb-net-dm9601-ether \
-        kmod-usb-net-ipheth kmod-usb-net-rndis kmod-usb-net-rtl8150 r8152-firmware \
-        kmod-crypto-sha256 kmod-usb-net-rtl8152 kmod-usb-net-sierrawireless kmod-usb-ohci \
-        kmod-usb-serial-qualcomm kmod-usb-serial-sierrawireless kmod-scsi-core kmod-usb-storage \
-        kmod-usb-storage-extras kmod-usb-storage-uas kmod-usb-uhci kmod-usb-xhci-hcd \
-        kmod-usb-ehci kmod-usb2 kmod-usb-xhci-hcd kmod-usb3 libjson-script liblucihttp \
-        liblucihttp-lua libevdev libudev-zero losetup lsblk lscpu mkf2fs mount-utils openssl-util parted \
-        perl-http-date perlbase-file perlbase-getopt perlbase-time perlbase-unicode perlbase-utf8 \
-        ppp ppp-mod-pppoe pv rename resize2fs tar tini ttyd \
-        uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch usbids uuidgen wget-ssl whereis \
-        which wwan xfs-fsck xfs-mkfs xz xz-utils zoneinfo-asia zoneinfo-core zstd \
-        \
-        luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base \
-        luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
-        luci-mod-status luci-mod-system luci-proto-3g luci-proto-ipip luci-proto-ipv6 \
-        luci-proto-ncm luci-proto-ppp luci-proto-qmi \
-        \
+        cgi-io libiwinfo libiwinfo-data libiwinfo-lua liblua libjson-script liblucihttp liblucihttp-lua \
+        libubus-lua lua luci dnsmasq-full luci-app-firewall4 luci-app-opkg luci-base luci-lib-base \
+        luci-lib-ip luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
+        luci-mod-status luci-mod-system luci-proto-ppp luci-ssl \
+        luci-theme-material px5g-wolfssl rpcd rpcd-mod-file rpcd-mod-iwinfo rpcd-mod-luci \
+        rpcd-mod-rrdns uhttpd uhttpd-mod-ubus luci-compat \
+        ath9k-htc-firmware btrfs-progs hostapd hostapd-utils kmod-ath kmod-ath9k kmod-ath9k-common \
+        kmod-ath9k-htc kmod-cfg80211 kmod-crypto-acompress kmod-crypto-crc32c kmod-crypto-hash \
+        kmod-fs-btrfs kmod-mac80211 wireless-tools wpa-cli wpa-supplicant \
+        libiwinfo-data wireless-regdb libiwinfo20210430 usb-modeswitch \
+        luci-app-amlogic usbutils kmod-usb2 kmod-brcmfmac \
+        perlbase-file kmod-brcmutil perlbase-essential perlbase-utf8 \
+        perlbase-file  perlbase-time perlbase-xsloader coreutils-stat zoneinfo-asia \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
         ${config_list} \
