@@ -174,6 +174,7 @@ rebuild_firmware() {
 
     # Selecting default packages, lib, theme, app and i18n, etc.
     my_packages="\
+        libc libubus20220601 libnettle8 kmod-ipt-ipset libnetfilter-conntrack3 dnsmasq-full \
         attr base-files bash bc blkid block-mount blockd bsdtar btrfs-progs busybox bzip2 \
         cgi-io chattr comgt comgt-ncm containerd coremark coreutils coreutils-base64 coreutils-nohup \
         coreutils-truncate curl dosfstools dumpe2fs e2freefrag e2fsprogs \
