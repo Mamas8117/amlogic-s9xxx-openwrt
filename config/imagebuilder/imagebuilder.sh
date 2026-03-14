@@ -22,7 +22,7 @@
 #                then use it to add packages, libraries, themes, apps, and i18n support.
 #
 # Command: ./config/imagebuilder/imagebuilder.sh <source:branch>
-#          ./config/imagebuilder/imagebuilder.sh openwrt:24.10.4
+#          ./config/imagebuilder/imagebuilder.sh openwrt:25.12.0
 #
 #======================================== Functions list ========================================
 #
