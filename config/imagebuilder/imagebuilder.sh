@@ -273,8 +273,8 @@ custom_settings() {
 # Show welcome message
 echo -e "${STEPS} Welcome to the OpenWrt Image Builder."
 [[ -x "${0}" ]] || error_msg "Please grant execution permission: [ chmod +x ${0} ]"
-[[ -z "${1}" ]] && error_msg "Please specify the OpenWrt source and branch, e.g. [ ${0} openwrt:24.10.4 ]"
-[[ "${1}" =~ ^[a-z]{3,}:[0-9]+ ]] || error_msg "Invalid parameter format. Expected <source:branch>, e.g. openwrt:24.10.4"
+[[ -z "${1}" ]] && error_msg "Please specify the OpenWrt source and branch, e.g. [ ${0} openwrt:25.12.0 ]"
+[[ "${1}" =~ ^[a-z]{3,}:[0-9]+ ]] || error_msg "Invalid parameter format. Expected <source:branch>, e.g. openwrt:25.12.0"
 op_sourse="${1%:*}"
 op_branch="${1#*:}"
 echo -e "${INFO} Working directory: [ ${PWD} ]"
